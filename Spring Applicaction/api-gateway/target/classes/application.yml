@@ -1,0 +1,9 @@
+#server:
+#  port: 8008
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: DEPARTMENT-SERVICES
+#          uri: lb://DEPARTMENT-SERVICES
+#          predicates:
+#            - Path=/department/**
